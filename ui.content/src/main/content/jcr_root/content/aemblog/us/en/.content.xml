@@ -14,4 +14,5 @@
             sling:resourceType="aemblog/components/container"
             layout="responsiveGrid"/>
     </jcr:content>
+    <my-first-component/>
 </jcr:root>
