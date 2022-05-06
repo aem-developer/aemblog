@@ -1,0 +1,5 @@
+<section data-sly-use.templates="core/wcm/components/commons/v1/templates.html">
+    <h3 style = "background: black; color: white">${properties.title}</h3>
+      <p>${properties.description}</p>
+</section>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !(properties.title && properties.description)}"></sly>
