@@ -15,4 +15,5 @@
             layout="responsiveGrid"/>
     </jcr:content>
     <my-first-component/>
+    <multifield-example/>
 </jcr:root>
