@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-05-14T00:27:34.717+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemblog/settings/wcm/templates/empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Multifield Example"
+        sling:resourceType="aemblog/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemblog/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemblog/components/container"
+                layout="responsiveGrid">
+                <multifield_example
+                    jcr:created="{Date}2022-05-13T13:31:11.184+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-05-14T00:27:34.713+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aemblog/components/multifield-example">
+                    <multifieldList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            name="Home"
+                            url="/content/aemblog/us/en"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            name="Contact"
+                            url="/content/aemblog/us/en"/>
+                    </multifieldList>
+                </multifield_example>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

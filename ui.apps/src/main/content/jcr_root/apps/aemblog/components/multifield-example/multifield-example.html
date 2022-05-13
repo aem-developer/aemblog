@@ -1,0 +1,8 @@
+<section data-sly-use.props="com.aemblog.core.models.MultifieldExampleSlingModel"
+		 data-sly-use.templates="core/wcm/components/commons/v1/templates.html">
+    <div data-sly-list.multifielditem="${props.multifieldList}">
+           <p>Title: ${multifielditem.name}</p>
+           <p>URL: ${multifielditem.url}</p>
+    </div>
+</section>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !props.multifieldList}"></sly>
